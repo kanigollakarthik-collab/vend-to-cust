@@ -163,28 +163,3 @@ npm run preview   # Preview the production build locally
 | `/vendor/dashboard`  | Protected | Vendor dashboard (profile + inventory CRUD)  |
 
 ---
-
-## 📜 Available Scripts
-
-| Command            | Description                        |
-| ------------------ | ---------------------------------- |
-| `npm run dev`      | Start Vite dev server with HMR     |
-| `npm run build`    | Build optimized production bundle  |
-| `npm run preview`  | Preview the production build       |
-| `npm run lint`     | Run ESLint across the project      |
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
