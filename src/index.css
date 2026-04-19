@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-bounce-short: bounce-short 0.5s ease-out forwards;
+  
+  @keyframes bounce-short {
+    0% { transform: translate(-50%, 100%); opacity: 0; }
+    60% { transform: translate(-50%, -10%); opacity: 1; }
+    100% { transform: translate(-50%, 0); opacity: 1; }
+  }
+}
+
+body {
+  @apply transition-colors duration-300;
+}
